@@ -1,0 +1,530 @@
+@media (max-width: 1180px) {
+  .seguros__item {
+    max-width: 340px;
+  }
+
+  h2 {
+    font-size: 36px;
+    padding-top: 70px;
+  }
+  .info__item {
+    max-width: 340px;
+    min-height: 340px;
+  }
+
+  .info__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .info__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .logo img {
+    width: 165px;
+    height: 55px;
+  }
+
+  .header__item a {
+    font-size: 18px;
+  }
+
+  .header__social a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .header__social a svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header__text {
+    font-size: 30px;
+  }
+
+  .top,
+  .top__inner {
+    height: calc(95vh - 100px);
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .seguros__item {
+    max-width: 292px;
+    height: 155px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
+
+  .seguros__item span {
+    font-size: 22px;
+  }
+
+  .info__item {
+    max-width: 315px;
+    min-height: 315px;
+  }
+
+  .info__title {
+    line-height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header {
+    position: relative;
+  }
+
+  .logo,
+  .header__text
+  /* .menu__btn */ {
+    position: relative;
+    z-index: 4;
+  }
+
+  .header__contact {
+    display: none;
+  }
+
+  .header__contact--active .rightside-menu__close {
+    display: block;
+    position: absolute;
+    top: -47px;
+    right: 58px;
+    background-color: transparent;
+  }
+
+  /* .header__contact--close img {
+    width: 10px;
+    height: 10px;
+  } */
+
+  .menu__btn {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #646060;
+    position: relative;
+  }
+
+  .header__contact {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 86px;
+    background: #fff;
+    padding: 20px;
+    transform: translateX(345px);
+    transition: all 0.5s;
+    z-index: 2;
+  }
+
+  .header__social {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .header__contact--active {
+    transform: translateX(0);
+  }
+
+  .header__contact--active::before {
+    content: "";
+    position: absolute;
+    width: 106px;
+    height: 70px;
+    background: #fff;
+    top: -60px;
+    right: 0;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .seguros__item {
+    max-width: 210px;
+    height: 115px;
+  }
+
+  .seguros__item span {
+    font-size: 16px;
+    right: 15px;
+    top: 5px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+
+  .seguros__items {
+    justify-content: space-around;
+  }
+
+  .info__items {
+    flex-wrap: wrap;
+  }
+
+  .info__item {
+    margin-bottom: 20px;
+  }
+
+  .opiniones__item {
+    padding: 10px 13px;
+    min-height: 230px;
+  }
+
+  .opiniones__title {
+    font-size: 18px;
+  }
+
+  .opiniones__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .slick-arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .slick-arrow img {
+    width: 20px;
+    height: 16px;
+  }
+
+  .footer-header__contact .header__social {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo img {
+    width: 130px;
+    height: 45px;
+  }
+
+  .menu__btn {
+    font-size: 14px;
+  }
+
+  .header__text {
+    font-size: 22px;
+  }
+
+  .header__contact {
+    top: 75px;
+  }
+
+  h1 {
+    font-size: 30px;
+    padding-top: 100px;
+  }
+
+  .top,
+  .top__inner {
+    height: calc(70vh - 100px);
+  }
+
+  .seguros__item {
+    max-width: 184px;
+    height: 100px;
+  }
+
+  marquee img {
+    height: 65px;
+  }
+
+  .aseguradoras__items {
+    padding: 15px 10px 15px;
+  }
+
+  .slick-dots {
+    bottom: -15px;
+  }
+}
+
+@media (max-width: 670px) {
+  .info__item {
+    max-width: 220px;
+    min-height: 280px;
+  }
+
+  .aseguradoras {
+    margin-bottom: 20px;
+  }
+
+  .footer .header__inner,
+  .footer-header__contact {
+    display: block;
+    text-align: center;
+  }
+
+  .footer .logo {
+    margin-bottom: 10px;
+  }
+
+  .footer .logo img {
+    width: 150px;
+  }
+
+  .footer-header__contact .header__social {
+    margin-right: 0;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 13px;
+  }
+
+  .footer .header__social a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer .header__social svg {
+    width: 10px;
+    height: 14px;
+  }
+
+  .footer .header__item a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer .header__inner-tel {
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 610px) {
+  .seguros__item {
+    max-width: 160px;
+    height: 87px;
+  }
+
+  .seguros__item span {
+    font-size: 14px;
+    right: 12px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 538px) {
+  .seguros__item {
+    max-width: 175px;
+    height: 95px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__inner {
+    padding: 5px 5px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .header__text {
+    font-size: 18px;
+  }
+
+  .menu__btn {
+    font-size: 12px;
+  }
+
+  .top,
+  .top__inner {
+    height: calc(55vh - 100px);
+  }
+
+  h1 {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  .header__contact {
+    top: 47px;
+  }
+
+  .header__item a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .header__social {
+    margin-bottom: 15px;
+  }
+
+  .header__social a {
+    width: 32px;
+    height: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .seguros__item span {
+    font-size: 12px;
+    right: 14px;
+    top: 0;
+  }
+
+  .seguros__item {
+    max-width: 160px;
+    height: 90px;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  .info__title {
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .info__text {
+    font-size: 12px;
+  }
+
+  .info__item {
+    max-width: 85%;
+    min-height: 160px;
+  }
+
+  .info__item img {
+    height: 160px;
+  }
+
+  .info__title {
+    font-size: 13px;
+  }
+
+  .info__text {
+    font-size: 11px;
+  }
+
+  marquee img {
+    height: 48px;
+  }
+
+  .opiniones__title {
+    font-size: 14px;
+  }
+
+  .opiniones__item {
+    min-height: 240px;
+  }
+
+  .slick-dots li.slick-active {
+    width: 12px;
+    height: 1px;
+  }
+
+  .slick-dots li {
+    width: 8px;
+    height: 1px;
+  }
+
+  .slick-dots {
+    bottom: -12px;
+  }
+
+  .header__contact--active .rightside-menu__close {
+    top: -26px;
+    right: 30px;
+  }
+
+  .header__contact--active::before {
+    width: 74px;
+  }
+}
+
+@media (max-width: 376px) {
+  .seguros__item {
+    max-width: 125px;
+    height: 65px;
+  }
+  .seguros__item span {
+    font-size: 10px;
+    right: 3px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header__text {
+    font-size: 16px;
+  }
+
+  .header__social a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__contact {
+    padding: 15px;
+  }
+
+  .header__social {
+    justify-content: center;
+  }
+
+  .header__item a {
+    text-align: center;
+  }
+
+  h1 {
+    line-height: 26px;
+    padding-top: 30px;
+  }
+
+  .top,
+  .top__inner {
+    height: calc(45vh - 100px);
+  }
+
+  .header__social a svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .header__social a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .header__contact {
+    padding: 10px;
+  }
+
+  .info__title {
+    line-height: 14px;
+    margin-bottom: 5px;
+  }
+
+  .info__box p + p {
+    margin-top: 5px;
+  }
+
+  .header__contact--active::before {
+    width: 65px;
+  }
+}
